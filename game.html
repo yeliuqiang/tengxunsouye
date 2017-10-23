@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/game.css" />
+  <link rel="stylesheet" href="css/base.css" />
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+</head>
+<body>
+<!-- 页面主体开始 -->
+<div class="wrapper">
+  <!-- 通用导航开始 -->
+  <header class="navbar">
+    <h2 class="hide-clip">网站导航</h2>
+    <div class="navbar-container">
+     <a class="logo" href="" title="QQ会员首页"><img src="img/game/logo/logo.png" alt="QQ会员" /></a>
+     <a class="logo-bg" href="" title="QQ会员首页"><img src="img/game/logo/logo_b.png" alt="QQ会员"/></a>
+     <nav class="navbar-list">
+       <ul>
+         <li class=""><a href="" onclick="">功能特权</a>
+           <ul class="menu">
+             <li><a href="">全部特权</a></li>
+             <li><a href="">分等级特权</a></li>
+           </ul>
+         </li>
+         <li class=""><a href="" onclick="">游戏特权</a></li>
+         <li class=""><a href="" onclick="">生活特权</a></li>
+         <li class=""><a href="" onclick="">装扮特权</a></li>
+         <li class=""><a href="" onclick="">会员活动</a>
+          <ul class="menu">
+           <li class=""><a href="">全部活动</a></li>
+           <li class=""><a href="">徽章馆</a></li>
+           <li><a href="">靓号站</a></li>
+         </ul>
+       </li>
+       <li class=""><a href="" onclick="">成长体系</a>
+         <ul class="menu">
+           <li><a href="">成长任务</a></li>
+           <li><a href="">积分乐园</a></li>
+           <li><a href="">排名中心</a></li>
+         </ul>
+       </li>
+       <li class=""><a href="" onclick="">年费专区</a>
+         <ul class="menu">
+           <li><a href="">年费介绍</a></li>
+           <li><a href="">专属礼包</a></li>
+         </ul>
+       </li>
+     </ul>
+   </nav>
+   <!-- 登陆的状态 -->
+      <div class="navbar-status">
+           <div class="navbar-status-user">
+           <a href="">
+           <span class="navbar-status-avatar"></span>
+           <span class="navbar-status-name" style="width:93px;"></span>
+           </a>
+           <!-- 未登录 -->
+           <div class="navbar-status-user">
+           <span class="navbar-status-login">登录</span>
+           </div>
+           </div>
+      </div>   
+   </div>
+   <!--/- 登陆的状态 -->
+   <div class="navbar-subnav hide">
+     <div class="navbar-subnav-container"></div>
+   </div>
+</header>
+ <!-- 通用导航结束 -->
+ <!-- 项目部分开始 -->
+ <div class="game-wrapper">
+   <div class="game-content">
+     <section class="slider" style="background-color: #fff; text-align: center; height: 500px;">
+       <div class="slider-banner" style="height: 500px;">
+         <ul class="slider-banner-content">
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017092_1180x500.jpg" alt="DNF"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017093_1180x500.jpg" alt="QQ飞车"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017094_1180x500.jpg" alt="穿越火线"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017095_1180x500.jpg" alt="使命召唤"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017096_1180x500.jpg" alt="冒险岛"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017097_1180x500.jpg" alt="10月超级福利"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017098_1180x500.jpg" alt="逆战"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/2017099_1180x500.jpg" alt="逆战"/></a></li>
+           <li style="background-color: rgb(99,16,16); display:none;"><a href=""><img src="img/game/logo/20170100_1180x500.jpg" alt="CF"/></a></li>
+         </ul>
+         <div class="slider-indicators">
+           <li class="current"></li>
+           <li class="current"></li>
+           <li class="current"></li>
+           <li class="current"></li>
+           <li class="current"></li>
+           <li class="current"></li>
+           <li class="current"></li>
+           <li class="current"></li>
+           <li class="current"></li>
+         </div>
+       </div>
+     </section>
+     <!-- 内容开始 -->
+     <section class="hot-game">
+       <div class="hotgame-content">
+         <div class="hotgame-title">
+           <h3>热门游戏专区</h3>
+         </div>
+         <div class="hotgame-tab">
+           <div class="hotgame-list">
+             <ul class="hotgame-list-title">
+               <li class="current"><a href="">竞技游戏</a></li>
+               <li class=""><a href="">动作游戏</a></li>
+               <li class=""><a href="">角色扮演</a></li>
+               <li class=""><a href="">休闲游戏</a></li>
+               <li class=""><a href="">手机游戏</a></li>
+               <li class=""><a href="">网页游戏</a></li>
+             </ul>
+             <ul class="hotgame-list-content text-nowrap" style="display: block;">
+               <li class="highlight"><a href="">穿越火线<span class="hotgame-label hot"></span></a></li>
+               <li class="highlight"><a href="">神之浩劫<span class="hotgame-label hot"></span></a></li>
+             </ul>
+             <ul class="hotgame-list-content text-nowrap" style="display: none;">
+               <li class="highlight"><a href="">FIFA Online3<span class="hotgame-label hot"></span></a></li>
+             </ul>
+             <ul class="hotgame-list-content text-nowrap" style="display: none;">
+              <li class="highlight"><a href="">QQ手游<span class="hotgame-label hot"></span></a></li>
+              <li class="highlight"><a href="">热血传奇<span class="hotgame-label hot"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="free-gift">
+     <div class="list-title">
+       <h2>礼包免费领<span id="user-panel-gift" style="float: right; font-size: 0.7em; cursor: pointer;">我的礼包</span></h2>
+     </div>
+     <div class="gift-content">
+       <ul class="game-list gift-list">
+         <li><a href=""><img src="img/game/hotgame/2016051_220x280.jpg" alt="" /><p class="subject text-nowrap">国庆福利赢永久车</p></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016052_220x280.jpg" alt="" /><p class="subject text-nowrap">注册领4大游戏福利</p></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016053_220x280.jpg" alt="" /><p class="subject text-nowrap">赢超级会员</p></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016054_220x280.jpg" alt="" /><p class="subject text-nowrap">深渊票+黑钻</p></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016055_220x280.jpg" alt="" /><p class="subject text-nowrap">注册赢坐骑+ Q币</p></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016056_220x280.jpg" alt="" /><p class="subject text-nowrap">限时会员专属豪礼</p></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016057_220x280.jpg" alt="" /><p class="subject text-nowrap"> 逆战国庆福利</p></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016058_220x280.jpg" alt="" /><p class="subject text-nowrap">免费领精英OR黄金礼包</p></a></li>
+         <li class="last"><a href=""><img src="img/game/hotgame/2016059_220x280.jpg" alt="" /><p class="subject text-nowrap">登录领1888礼包</p></a></li>
+         <li class="last"><a href=""><img src="img/game/hotgame/2016060_220x280.jpg" alt="" /><p class="subject text-nowrap">限免军火库</p></a></li>
+       </ul>
+     </div> 
+   </section>
+   <section class="new-game">
+     <section class="new-game-play">
+       <div class="new-game-content">
+         <div class="list-title">
+           <h2>新游抢先玩</h2>
+         </div>
+         <ul class="game-list new-game-list">
+           <li><a href=""><img src="img/game/hotgame/2016061_220x280.jpg" alt="" /><p class="subject text-nowrap">预约不限号赢好礼</p></a></li>
+           <li><a href=""><img src="img/game/hotgame/2016062_220x280.jpg" alt="" /><p class="subject text-nowrap">流放之路</p></a></li>
+           <li><a href=""><img src="img/game/hotgame/2016063_220x280.jpg" alt="" /><p class="subject text-nowrap">灵山奇缘</p></a></li>
+           <li class="last"><a href=""><img src="img/game/hotgame/2016064_220x280.jpg" alt="" /><p class="subject text-nowrap">登录领1888礼包</p></a></li>
+         </ul>
+       </div>
+     </section>
+     <section class="new-hot-game">
+       <div class="list-title new-hot-game-title">
+         <h2>新游热度榜
+         <span class="icon-wrap">
+         <span class="arrow-left"></span>
+         <span class="arrow-right"></span>
+         </span>
+         </h2>
+       </div>
+       <ul class="new-hot-game-list">
+         <li><a href=""><img src="img/game/hotgame/2016070_220x280.jpg" alt="" /><div class="game-item"><p class="game-name text-nowrap">流放之路</p><p class="game-info text-nowrap">坚守信仰 复兴黑暗</p></div></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016071_220x280.jpg" alt="" /><div class="game-item"><p class="game-name text-nowrap">流放之路</p><p class="game-info text-nowrap">坚守信仰 复兴黑暗</p></div></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016072_220x280.jpg" alt="" /><div class="game-item"><p class="game-name text-nowrap">流放之路</p><p class="game-info text-nowrap">坚守信仰 复兴黑暗</p></div></a></li>
+         <li><a href=""><img src="img/game/hotgame/2016073_220x280.jpg" alt="" /><div class="game-item"><p class="game-name text-nowrap">流放之路</p><p class="game-info text-nowrap">坚守信仰 复兴黑暗</p></div></a></li>
+       </ul>
+     </section>
+   </setion>
+   <section class="game-recomment">
+     <section class="mobile-game">
+       <div class="mobile-game-content">
+         <div class="list-title">
+           <h2>热门手游</h2>
+         </div>
+         <ul class="game-icon-list">
+           <li><a href=""><img src="img/game/hotgame/2016080_220x280.jpg" alt=""/><p class="name text-nowrap">天天酷跑</p></a>
+             <div class="qrcode" title="天天酷跑">
+               <canvas width="110" height="110" style="display: none;"></canvas>
+               <img src="img/game/hotgame/index.png" alt="" style="display: block;"/>
+            
+             </div>
+           </li>
+           <li><a href=""><img src="img/game/hotgame/2016081_220x280.jpg" alt=""/><p class="name text-nowrap">穿越火线手游版</p></a>
+             <div class="qrcode" title="穿越火线">
+               <canvas width="110" height="110" style="display: none;"></canvas>
+               <img src="img/game/hotgame/index.png" alt="" style="display: black;"/>
+              
+             </div>  
+           </li>
+           <li><a href=""></a><img src="img/game/hotgame/2016082_220x280.jpg" alt=""/><p class="name text-nowrap">王者荣耀</p></a>
+                  <div class="qrcode" title="王者荣耀">
+               <canvas width="110" height="110" style="display: none;"></canvas>
+               <img src="img/game/hotgame/index.png" alt="" style="display: block;"/>
+            
+             </div>
+           </li>
+           <li class="last"><a href=""><img src="img/game/hotgame/2016083_220x280.jpg" alt=""/><p class="name text-nowrap">火影忍者</p></a></li>
+         </ul>
+       </div>
+     </section>
+     <section class="hot-pc-game">
+       <div class="pc-game-content">
+         <div class="list-title">
+           <h2>网页热门</h2>
+         </div>
+         <ul class="game-icon-list">
+           <li><a href=""><img src="img/game/hotgame/2016090_220x280.jpg" alt="" /><p class="name text-nowrap">剑灵-洪门崛起</p></a></li>
+           <li><a href=""><img src="img/game/hotgame/2016091_220x280.jpg" alt="" /><p class="name text-nowrap">火影忍者</p></a></li>
+           <li><a href=""><img src="img/game/hotgame/2016092_220x280.jpg" alt="" /><p class="name text-nowrap">盗墓笔记</p></a></li>
+         </ul>
+       </div>
+     </section>
+   </section>
+ </div>
+</div>
+ <!-- 项目部分结束 -->
+ <!-- 页尾开始 -->
+ <div class="ui-footer">
+   <nav>
+   <ul>
+     <li><a href=""><span class="footer-icon icon-qq"></span><span></span><div class="qrcode"><img src="img/game/hotgame/201601001_220x280.jpg" alt="" /></div></a></li>
+     <li><a href=""><span class="footer-icon icon-wechat"></span><span></span><div class="qrcode"><img src="img/game/hotgame/201601002_220x280.jpg" alt="" /></div></a></li>
+     <li><a href=""><span class="footer-icon icon-bbs"></span><span></span></a></li>
+     <li><a href=""><span class="footer-icon icon-wechat"></span><span></span></a></li>
+     <li><a href=""><span class="footer-icon icon-qzone"></span><span></span></a></li>
+     <li><a href=""><span class="footer-icon icon-weibo"></span><span></span></a></li>
+     <li><a href=""><span class="footer-icon icon-exchange"></span><span></span></div></a></li>
+      <li><a href=""><span class="footer-icon icon-service"></span><span></span><div class="qrcode"><img src="" alt="" /></div></a></li>
+     </ul>
+   </nav>
+   <p class="footer-copyright">叶刘强仿腾讯公司-版权所有</p>
+   <p class="footer-copyright">Copyright © 1998 - 2016 Tencent .  All Rights Reserved</p>
+ </div>
+</div>
+<!-- 页尾结束 -->
+<!-- 页面主体结束 -->
+<script>
+
+$('.navbar-list li').bind("mouseover", function() {
+      $('.navbar-subnav').addClass('show').removeClass('hide');
+    }).bind("mouseleave", function() {
+       $('.navbar-subnav').addClass('hide').removeClass('show');
+    });
+ var index = 0;
+       var timer = 0;
+$('.slider-indicators li').bind('mouseover',function() {
+               clearInterval(timer);
+           index = $('.slider-indicators li').index($(this));
+           $(this).addClass('current').siblings().removeClass('current')
+
+           $('.slider-banner-content li').eq(index).fadeIn(100).siblings().fadeOut(300);
+
+    }).bind('mouseleave',function() {
+               clearInterval(timer);
+             num = index;
+             timer = setInterval(btnChange, 3000);
+      }) 
+var num = 0;
+var lens = $('.slider-banner li').length;
+   timer = setInterval(btnChange, 3000);
+function btnChange() {
+$('.slider-indicators li').eq(num).addClass('current').siblings().removeClass('current');
+$('.slider-banner-content li').eq(num).fadeIn(200).siblings().fadeOut(500);
+num++;
+if(num == lens) {
+  num = 0;
+       }
+}  
+       
+</script>
+</body>
+</html>
